@@ -1,5 +1,8 @@
 # league-manager
-JavaFX application designed to handle and manage a small-medium sized football league. Created as coursework piece for CS Degree. Ovarall marks available for application: __60__
+JavaFX application designed to handle and manage a small-medium sized football league. Created as coursework piece for CS Degree. 
+
+Ovarall marks available for application: __60__
+
 Overall marks achieved for application: __57__
 
 ## Application Brief
