@@ -1,0 +1,40 @@
+/*
+** Main CSS properties used within the application for styling interactable components
+** All overrided CSS properties have been derived from base 'modena.css' Java style sheet
+** Drop Shadow effect property generated from Oracle Docs: https://docs.oracle.com/javafx/2/api/javafx/scene/doc-files/cssref.html#typeeffect
+** @author Christopher
+*/
+
+.root {
+    -fx-background-image: url("background.png");
+}
+
+.button, .combo-box, .text-field, .check-box > .box  {
+    -fx-background-radius: 10px;
+    -fx-border-color: rgb(196, 196, 196);
+    -fx-border-radius: 10px;
+    -fx-background-insets: none;
+    -fx-transition: 2s;
+}
+
+.titled-pane > .title {
+    -fx-background-radius: 10px 10px 0px 0px;
+    -fx-border-radius: 10px 10px 0px 0px;
+}
+
+.titled-pane > .content {
+    -fx-background-radius: 0px 0px 10px 10px;
+    -fx-border-radius: 0px 0px 10px 10px;
+}
+
+.table-view, .table-view:focused {
+    -fx-background-color: rgb(196, 196, 196);
+}
+
+.table-row {
+    -fx-background-color: -fx-background;
+}
+
+.button:hover {
+    -fx-effect: dropshadow(three-pass-box, rgba(173,173,173,0.3), 20, 0, 0, 2) ;
+}
